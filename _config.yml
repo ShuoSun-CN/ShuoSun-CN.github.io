@@ -17,8 +17,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-remote-theme
-remote_theme: vszhub/not-pure-poole
+
 # Optimize Jekyll
 exclude:
   - .editorconfig
@@ -61,3 +60,7 @@ author:
   name: Songzi Vong
   url: https://github.com/vszhub/
   email: vszhub@gmail.com
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: vszhub/not-pure-poole
