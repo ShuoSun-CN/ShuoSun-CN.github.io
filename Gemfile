@@ -2,5 +2,4 @@ source "https://rubygems.org"
 gemspec
 
 gem 'jekyll-compose', group: [:jekyll_plugins]
-plugins:
-  - not-pure-poole
+gem 'not-pure-poole'
