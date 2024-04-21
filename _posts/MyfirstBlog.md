@@ -3,7 +3,7 @@ layout: post
 title: My First Blog
 tags: mathjax
 math: true
-date: 2024-04-21 14.59 +0800
+date: 2024-04-21 14:59 +0800
 ---
 Not Pure Poole supports [MathJax](https://www.mathjax.org/). You can enable it on a page by setting `math: true` in the front matter.
 
