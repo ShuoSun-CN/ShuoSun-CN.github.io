@@ -5,13 +5,15 @@ tags: problems
 math: true
 date: 2024-05-03 20:27 +0800
 ---
-Not Pure Poole supports [MathJax](https://www.mathjax.org/). You can enable it on a page by setting `math: true` in the front matter.
+<h2>有趣的二进制<\h2>
+在大一时，最开始在我心中的二进制可能仅仅用于高低电平表示，而为什么用二进制，二进制的好处是什么？
+我在网上已经搜索不到当初在大一老师展示过的答案，当时老师展示了一条曲线，应该是二进制在复杂度方面的优势。
+但时至今日我切身体会到了二进制的美妙不至于此，它可以优雅地表示“有”和“无”。
 
-An inline math: \\\(E=mc^2\\\).
+这是我在大二的时候一个同学问过我的问题，问题是有k瓶试剂，其中1瓶是有毒的，小鼠复用后的一周后会毒发身亡，
+请问需要多少只小鼠能在最短的时间内找到这瓶毒药？
 
-A display math:
+如果我们优雅的采用二进制
+只需要log2k瓶即可，因为只需要让编号为 i 的小鼠喝掉 二进制编码中第i位为1的酒即可。
 
-$$
-i\hbar \frac{\partial \Psi}{\partial t} = -\frac{\hbar^2}{2m}
-\frac{\partial^2 \Psi}{\partial x^2} + V \Psi
-$$
+此类的用法还有 汉明码，快速幂等。
